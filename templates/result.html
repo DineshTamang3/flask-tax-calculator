@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Your Tax Result</h1>
+<p>Income: {{ income }}</p>
+<p>Tax Owed: {{ tax }}</p>
+<a href="{{ url_for('home') }}">Calculate again</a>
+<br>
+<p>Tax brackets:<br>
+$0-$5,000 : 5%<br>
+$5,000-$10,000 : 15%<br>
+over $10,000 : 20%</p>
+{% endblock %}

@@ -1,0 +1,16 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+.home {
+    text-decoration: none;
+}
+.submit-btn {
+    margin-top: 10px;
+}
+html {
+    background-color: lightblue;
+}

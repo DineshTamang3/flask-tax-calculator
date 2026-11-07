@@ -1,0 +1,11 @@
+
+{% extends "base.html" %}
+{% block content %}
+<h1>Tax Calculator</h1>
+<form method="post" action="/calculate" >
+    <input type="number" id="income" name="income" step="0.01" required>
+    <label for="income">Annual Income ($)</label>
+    <br>
+    <button type="submit" class="submit-btn">Calculate</button>
+</form>
+{% endblock %}
