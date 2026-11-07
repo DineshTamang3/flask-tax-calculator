@@ -1,6 +1,6 @@
 # Tax Calculator
 
-It calculates tax of annual income. $0 - $5000 they are taxed 5000 and 5000-10000 is 15% anything above 10000 is 20%.
+It calculates tax of annual income. $0 - $5000 they are taxed 5% and 5000-10000 is 15% anything above 10000 is 20%.
 
 ## Built With
 - Python
